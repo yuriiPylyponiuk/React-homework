@@ -3,10 +3,10 @@ import Bblock from './b';
 
 
 function Ablock() {
-
+  let a = Math.random()*10;
   return (
     <div>
-      <Bblock number={Math.random().toFixed(7)}/>
+      <Bblock number={a}/>
     </div>
   );
 }
